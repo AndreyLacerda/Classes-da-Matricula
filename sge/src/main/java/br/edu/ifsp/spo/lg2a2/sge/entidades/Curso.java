@@ -4,9 +4,9 @@ import java.util.Collection;
 
 public class Curso {
 	
-	private Collection<Turma> ADS;
+	private Collection<Turma> turmas;
 	public Collection<Turma> getTurmas() {
-		return this.ADS;
+		return this.turmas;
 	}
 
 }
