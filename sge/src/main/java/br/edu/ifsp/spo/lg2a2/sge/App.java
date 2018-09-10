@@ -1,6 +1,7 @@
 package br.edu.ifsp.spo.lg2a2.sge;
 
 import br.edu.ifsp.spo.lg2a2.sge.entidades.Aluno;
+import br.edu.ifsp.spo.lg2a2.sge.entidades.Curso;
 import br.edu.ifsp.spo.lg2a2.sge.entidades.SituacaoMatricula;
 
 //class Pessoa {
@@ -25,7 +26,12 @@ import br.edu.ifsp.spo.lg2a2.sge.entidades.SituacaoMatricula;
 public class App {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub		
+		
+		Aluno andrey = new Aluno("SP3013049", "567894523-50", "Andrey Camargo Lacerda", "andrey-lacerda@hotmail.com");
+		Curso ads = new Curso();
+		
+		
+		// todo Auto-generated method stub		
 		
 //		Pessoa joao = new Pessoa();
 //		joao.setNome("João");
