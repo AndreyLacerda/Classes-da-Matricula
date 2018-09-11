@@ -28,7 +28,7 @@ public class App {
 	public static void main(String[] args) {
 		
 		Aluno andrey = new Aluno("SP3013049", "567894523-50", "Andrey Camargo Lacerda", "andrey-lacerda@hotmail.com");
-		Curso ads = new Curso();
+		Curso ads = new Curso("ads", "8588756456");
 		
 		
 		// todo Auto-generated method stub		
